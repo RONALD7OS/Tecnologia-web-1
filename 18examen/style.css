@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+.container {
+    justify-content: space-evenly;
+    border: 0.3rem;
+    display: column;
+    flex-wrap: wrap;
+    height: 100vh;
+    gap: 1.2rem;
+    justify-content: center;
+    margin: 9px;
+    border: 2px solid red;
+}
+
+.container__caja1 {
+    background-image: url(imagen1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 33vh;
+}
+.encabezado{
+    display: flex;
+    font-size: 20px;
+    flex-direction: row;
+justify-content: space-around;
+
+
+}
+.encabezado__logo{
+    background-color: brown;
+}
+.encabezado__menu--linea{
+    display:  inline-block;
+}
+
+.container__caja2 {
+    background-color: blueviolet;
+    width: 200rem;
+    height: 33vh;
+}
+
+.container__caja3 {
+    background-color: teal;
+    width: 200rem;
+    height: 33vh;
+}
